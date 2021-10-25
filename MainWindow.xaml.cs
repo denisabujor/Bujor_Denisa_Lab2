@@ -38,9 +38,9 @@ namespace Bujor_Denisa_Lab2
 
         private void frmMain_Loaded(object sender, RoutedEventArgs e)
         {
-            DoughnutMachine doughnut = new DoughnutMachine();
+            myDoughnutMachine = new DoughnutMachine();
             myDoughnutMachine.DoughnutComplete += new
-DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
+            DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
 
         }
         private int mRaisedGlazed;
